@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+.content-wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+
 header {
     /*background-attachment: fixed;
     background-position: center center;
@@ -20,8 +25,7 @@ header {
 }
 
 header h1 {
-    text-align: center;
-    font-size: 75px;    
+    font-size: 25px;    
     font-family: sans-serif;
     /*line-height: 300px;*/
 }
