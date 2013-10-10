@@ -1,61 +1,221 @@
 * {
     margin: 0;
     padding: 0;
+    vertical-align: top;
+    text-decoration: none;
+    color: #505050;
 }
 
 body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
     margin: 0 auto;
 }
 
 .content-wrapper {
-    width: 750px;
+    width: 1050px;
     margin: 0 auto;
 }
 
 header {
+    height: 525px;
+    /*background: url('/images/gplaypattern.png');*/
     /*background-attachment: fixed;
     background-position: center center;
     background-size: cover;*/
     padding: 20px 0 20px 0;
     width: 100%;
-    background-color: rgb(256, 256, 256);
+    background-color: #0099ff;
 }
 
 header h1 {
-    font-size: 25px;    
+    color: #505050;
+    display: inline-block;
+    font-size: 28px;    
     font-family: sans-serif;
     /*line-height: 300px;*/
 }
 
-section {
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding-left: 15px;
+    color: #505050;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header h2 {
+    color: #fefefe;
+    font-size: 6.28em;
+    padding-top: 160px;
+    text-shadow: 1px 1px 1px #505050;
+    text-align: center;
+}
+
+header h3 {
+    text-align: center;
+}
+
+#primary-section {
     background-color: #eeeeee;
-    padding: 20px 0 20px 0;
+    background-color: #fefefe;
+    padding: 80px 0 80px 0;
 }
 
-/*.left-content {
-    height: 100%;
-    width: 60%;
+.post-article {
     display: inline-block;
-    background-color: rgb( 40, 40, 40);
+    width: 680px;
+    padding-right: 30px;
 }
 
-.right-content {
-    height: 100%;
-    width: 39%;
+.post-primary-heading {
+    font-size: 4.5em;
+    padding-bottom: 12px;
+}
+
+.post-para {
+    line-height: 1.5em;
+    padding: 15px 0 15px 0;
+    font-size: 1.2em;
+}
+
+.post-author {
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+.post-para-heading-box {
+    margin: 25px 0 25px 0;
+    border-left: 2px solid #e0e0e0;
+    padding-left: 10px;
+}
+
+.post-para-heading {
+    font-size: 2.5em;
+    color: #0099ff;
+}
+
+.post-sidebar {
+    float: right;
+    margin-left: 30px;
     display: inline-block;
-    background-color: rgb(240, 240, 240);
-}*/
+    width: 300px;
+}
+
+.sidebar-author-heading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #0099ff;
+}
+
+.author-social {
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+
+.post-sidebar ul li {
+    display: inline;
+}
+
+.post-sidebar ul li a {
+    text-decoration: none;
+}
+
+.post-sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-li {
+    padding-left: 15px;
+}
+
+.sidebar-heading {
+    padding-bottom: 20px;
+    color: #0099ff;
+    font-size: 1.5em;
+}
+
+.sidebar-para {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.sub-section {
+    background-color: #fefefe;
+    border-top: 2px solid #e0e0e0;
+}
+
+.sub-section h2 {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.post-block-link {
+    display: inline-block;
+    width: 24.7%;
+    height: 320px;
+}
+
+.post-block-link h4 {
+    padding-top: 250px;
+    padding-left: 20px;
+    font-size: 2.4em;
+    color: #505050;
+}
 
 footer {
-    padding: 20px 0 20px 0;
+    font-size: 1.2em;
+    padding: 40px 0 40px 0;
     width: 100%;
-    background-color: rgb(200, 200, 200);
-
+    background-color: #0099ff;
 }
 
+footer p {
+    color: #fefefe;
+    display: inline-block;
+}
+
+.footer-nav {
+    float: right;
+    display: inline-block;
+}
+
+.footer-nav ul li {
+    padding-left: 15px;
+    display: inline;
+}
+
+.footer-nav ul li a {
+    color: #fefefe;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.li-padding-right {
+    padding-right: 10px;
+}
+
+.border-left {
+    padding-right: 10px;
+    border-left: 1px solid #fefefe;
+}
+
+/*
 @media (max-width: 1169px) {
     header h1 {
         font-size: 75px;
@@ -72,4 +232,4 @@ footer {
     header h1 {
         font-size: 35px;
     }
-}
+}*/
