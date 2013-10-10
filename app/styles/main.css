@@ -4,11 +4,11 @@
     vertical-align: top;
     text-decoration: none;
     color: #505050;
+    font-family: 'Oswald';
 }
 
 body {
     background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    height: 525px;
+    height: 545px;
     /*background: url('/images/gplaypattern.png');*/
     /*background-attachment: fixed;
     background-position: center center;
@@ -31,8 +31,7 @@ header {
 header h1 {
     color: #505050;
     display: inline-block;
-    font-size: 28px;    
-    font-family: sans-serif;
+    font-size: 2em;    
     /*line-height: 300px;*/
 }
 
@@ -48,7 +47,7 @@ header nav ul li {
 header nav ul li a {
     padding-left: 15px;
     color: #505050;
-    font-size: 20px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
